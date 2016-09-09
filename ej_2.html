@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ej 2</title>
+</head>
+<body>
+	
+	<script>
+		
+	var suma = 0;
+	do 	{ 
+		
+			var ingreso = prompt("ingresa un número");
+		
+			if (!isNaN(ingreso) ) {
+					var ingreso = parseInt(ingreso);
+
+					if (typeof ingreso == ('number')) {
+
+						suma = suma + ingreso;
+					}
+			}
+
+		} while (ingreso != "fin");
+
+		
+		console.log(suma);	
+
+
+	</script>
+
+</body>
+</html>
